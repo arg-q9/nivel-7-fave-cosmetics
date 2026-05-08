@@ -1,0 +1,257 @@
+@keyframes neon-pulse {
+    from {
+        text-shadow: 0 0 5px palevioletred, 0 0 5px palevioletred;
+    }
+    to {
+        text-shadow: 0 0 5px palevioletred, 0 0 25px palevioletred;
+    }
+}
+
+
+.titulo-carrito{
+
+    color: aliceblue;
+    font-size: 40px;
+     animation: neon-pulse 2s ease-in-out infinite alternate;
+}
+.tit{
+    display: flex;
+    align-items: baseline;
+    gap :20px;
+}
+.tit span{
+    color: rgb(80, 79, 79);
+}
+.tarjeta-acostada{
+        width: 850px;
+        background-color: #181717;
+        border-radius: 20px;
+        display: flex;
+        height: 170px;
+        justify-content: space-between;
+        padding: 30px;
+        border: 1px solid #f8a8c3;
+        transition: all 0.3s ease;
+
+
+}
+.tarjeta-acostada:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 25px rgba(219,112,147,0.2);
+    border: 1px solid palevioletred;
+}
+
+.fondo{
+    background-color: black;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    
+}
+.fondo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.fondo:hover{
+    transform: scale(1.1);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.tarjeta-checkout{
+    display: flex;
+    color: aliceblue;
+    gap: 30px;
+    align-items: center;
+}
+.cantidad{
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.fondo-cantidad{
+    background-color: rgb(43, 41, 41);
+    width: 120px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+}
+.fondo-cantidad button{
+    color: rgb(73, 75, 77);
+    background-color: rgb(43, 41, 41);
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #757373;
+
+}
+.fondo-cantidad button :hover{
+transform: scale(1.2);
+color: bisque;
+
+}
+.can button{
+    background-color: #181717;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.disminuir:hover{
+      transform: scale(1.2);
+    color: aliceblue;
+}
+.aumentar:hover{
+      transform: scale(1.2);
+    color: aliceblue;
+}
+.can{
+    display: flex;
+    gap: 30px;
+    font-size: 1.5rem;
+}
+.can button{
+    color: #757373;
+    font-size: 1.1rem;
+}
+.eliminar:hover{
+    color: #ffffff;
+    transform: scale(1.2);
+}
+h5{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.categoria{
+    color: rgb(77, 76, 76);
+
+}
+.precio-car{
+    font-size: 1.5rem;
+    color: palevioletred;
+}
+.precio{
+     gap: 30px;
+    font-size: 1.5rem;
+}
+.tarjeta-precio-total{
+    padding: 20px;
+    background-color: #181717;
+    width:390px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 192, 203, 0.658);
+    height: auto; 
+    padding-bottom: 25px; 
+
+}
+h3{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.sp{
+    color: rgb(97, 91, 91);
+}
+.padre-tarjeta-carrito{
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 30px;
+    gap: 60px;
+}
+.subtotal-precio{
+    color: aliceblue;
+
+}
+.sub-y-precio{
+    display: flex;
+    justify-content: space-between;
+}
+.envio-gratis{
+    display: flex;
+    justify-content: space-between;
+}
+.envio{
+    color: rgb(97, 91, 91);
+}
+.gratis{
+    font-size: 1rem;
+    color: gold;
+}
+.punticos{
+    border-top: 1px dotted rgb(97, 91, 91);
+}
+.total-totalmente{
+    display: flex;
+    justify-content: space-between;
+}
+.total-pa{
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin-top:auto ;
+}
+.precio-totalmente{
+    margin-top: auto;
+    background: linear-gradient(to right, #fff5f8, #ffffff);
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  color: transparent;
+  font-weight: bold;
+  font-size: 2.2rem;
+
+}
+.tarjeta-precio-total hr {
+    border: none;
+    border-top: 1px solid #333; 
+    
+}
+.proceder-al-pago{
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #d81b60, #e91e63); 
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+     transition: transform 0.2s;
+
+}
+.proceder-al-pago svg{
+    color: #2ecc71;
+}
+.proceder-al-pago:hover {
+   box-shadow: 2px 5px 20px rgba(207, 50, 76, 0.685);
+}
+.pago-seguro{
+    display: flex;
+    justify-content: center;
+     gap: 8px;
+    margin-top: 15px;
+    color: #888;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.pago-seguro svg {
+    color: #2ecc71;
+}

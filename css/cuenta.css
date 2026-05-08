@@ -1,0 +1,142 @@
+.contenedor-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 30px;
+}
+
+.tarjeta-usuario-pro {
+    background-color: #181717;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 25px;
+    border: 1px solid rgba(219, 112, 147, 0.3);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.circulo-avatar {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(45deg, palevioletred, #333);
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 3px solid palevioletred;
+}
+
+.foto-perfil {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.nombre-usuario {
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.sub-chistoso {
+    color: palevioletred;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.info-personal {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.dato-hijo label {
+    color: #888;
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+
+.caja-fake {
+    background-color: #0c0b0b;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #333;
+    font-size: 1rem;
+}
+
+.botones-cuenta-locos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn-editar-perfil {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.btn-editar-perfil:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(219, 112, 147, 0.4);
+}
+
+.btn-cerrar-sesion {
+    background: transparent;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-cerrar-sesion:hover {
+    background: #ff4d4d;
+    color: white;
+}
+
+.seccion-pedidos-viejos {
+    width: 100%;
+    max-width: 500px;
+}
+
+.tit-pedidos {
+    color: aliceblue;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.compra-item {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fecha-chida { color: #aaa; font-size: 0.9rem; }
+.status-pagado { color: gold; font-size: 0.8rem; font-weight: bold; }
+.precio-final { color: aliceblue; font-weight: bold; }
